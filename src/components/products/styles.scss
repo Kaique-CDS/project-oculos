@@ -1,0 +1,14 @@
+article.container {
+  background-color: #f5f6fa;
+  padding: 3rem 2rem;
+
+  .react-tabs__tab-panel {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-top: 0;
+    padding: 1.5rem;
+
+    display: flex;
+    gap: 1.5rem;
+  }
+}

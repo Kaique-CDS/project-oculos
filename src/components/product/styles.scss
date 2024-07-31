@@ -1,0 +1,35 @@
+div.product {
+  border: 1px solid #dedede;
+  border-radius: 15px;
+  height: 300px;
+  width: 250px;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-rows: 75% 25%;
+
+  position: relative;
+
+  label {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    background-color: #00000055;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  div.content {
+    padding: 1rem;
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      color: #999;
+    }
+  }
+}

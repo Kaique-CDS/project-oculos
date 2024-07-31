@@ -1,0 +1,34 @@
+header.topbar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  border-bottom: 1px solid #ddd;
+
+  > h3 {
+    flex-grow: 1;
+  }
+
+  input.search {
+    padding: 0.7rem 1rem;
+    border: none;
+    background: #efefef;
+    border-radius: 12px;
+  }
+
+  .notification {
+    svg {
+      height: 1.2rem;
+    }
+  }
+
+  div.divider {
+    height: 1.6rem;
+    border-right: 1px solid #ccc;
+  }
+
+  img.avatar {
+    height: 2.2rem;
+    border-radius: 100%;
+  }
+}
